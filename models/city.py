@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-""" City class """
-
-import uuid
-from datetime import datetime
-from models import storage
+'''
+    Define the class City.
+'''
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """ City class """
+    '''
+        Define the class City that inherits from BaseModel.
+    '''
     state_id = ""
     name = ""
